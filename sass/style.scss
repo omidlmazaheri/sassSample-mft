@@ -1,0 +1,101 @@
+$bg-color: red;
+$padding: 15px 40px;
+$fcolor: #fff;
+$font-stack: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$padding-sm: 8px;
+$padding-md: 16px;
+$card-bg-color: #a2a2a2;
+
+$light-bg: #ffffff;
+$light-text: #333333;
+
+$dark-bg: #1e1e1e;
+$dark-text: #f1f1f1;
+
+
+$btn-bg: #e74c3c;
+$btn-color: #fff;
+$btn-padding: 10px 20px;
+
+* {
+    direction: rtl;
+}
+
+body {
+    font-family: $font-stack;
+    font-size: $base-font-size;
+}
+
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+.card {
+    padding: $padding-md;
+    background-color: $card-bg-color;
+    box-shadow: $box-shadow;
+}
+
+button {
+    background-color: $bg-color;
+    padding: $padding;
+    color: $fcolor;
+}
+
+.button {
+    background-color: $btn-bg;
+    color: $btn-color;
+    padding: $btn-padding;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+.light-theme {
+    background-color: $light-bg;
+    color: $light-text;
+}
+
+.dark-theme {
+    background-color: $dark-bg;
+    color: $dark-text;
+}
+
+$base-size: 16px;
+$heading-scale: 2;
+
+h1 {
+    font-size: $base-size * $heading-scale; // خروجی: 32px
+}
+
+$overlay-color: rgba(0, 0, 0, 0.5);
+
+.overlay {
+    background-color: $overlay-color;
+    background-image: url(../sass.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+$link-color: #2980b9;
+$link-hover-color: darken($link-color, 10%);
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+    background-color: #a2a2a2;
+  }
+}
+$container-width: 1200px;
+$gutter: 20px;
+
+.container {
+  max-width: $container-width;
+  padding: 0 $gutter;
+  border: 1px solid black;
+}

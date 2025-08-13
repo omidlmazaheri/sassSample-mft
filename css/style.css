@@ -1,0 +1,64 @@
+* {
+  direction: rtl;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #a2a2a2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: red;
+  padding: 15px 40px;
+  color: #fff;
+}
+
+.button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../sass.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+}
+
+a {
+  color: #2980b9;
+}
+a:hover {
+  color: rgb(31.7477876106, 99.1150442478, 143.2522123894);
+  background-color: #a2a2a2;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  border: 1px solid black;
+}/*# sourceMappingURL=style.css.map */
