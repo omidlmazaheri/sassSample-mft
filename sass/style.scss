@@ -99,3 +99,36 @@ $gutter: 20px;
   padding: 0 $gutter;
   border: 1px solid black;
 }
+nav {
+  background-color: #333;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+      }
+    }
+  }
+}
+button.cta {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: darken(#3498db, 10%);
+  }
+
+  &:focus {
+    outline: 2px solid #2980b9;
+  }
+}
+

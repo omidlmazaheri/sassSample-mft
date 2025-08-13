@@ -61,4 +61,33 @@ a:hover {
   max-width: 1200px;
   padding: 0 20px;
   border: 1px solid black;
+}
+
+nav {
+  background-color: #333;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+button.cta {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+button.cta:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+button.cta:focus {
+  outline: 2px solid #2980b9;
 }/*# sourceMappingURL=style.css.map */
