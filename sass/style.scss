@@ -183,5 +183,38 @@ form {
   background-color: #fff;
 }
 
+@mixin heading-font {
+  font-family: 'tahoma', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@mixin body-font {
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1 {
+  @include heading-font;
+}
+
+p {
+  @include body-font;
+}
+
+@mixin hover-effect($hover-color) {
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+.btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+
+  @include hover-effect(#27ae60);
+}
+
+
 
 

@@ -133,7 +133,28 @@ form input:focus {
 }
 
 .card {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   background-color: #fff;
+}
+
+h1 {
+  font-family: "tahoma", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: #27ae60;
 }/*# sourceMappingURL=style.css.map */
