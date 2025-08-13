@@ -157,4 +157,12 @@ p {
 }
 .btn:hover {
   background-color: #27ae60;
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #eee;
 }/*# sourceMappingURL=style.css.map */

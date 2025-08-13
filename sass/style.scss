@@ -215,6 +215,19 @@ p {
   @include hover-effect(#27ae60);
 }
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-box {
+  @include flex-center;
+  height: 200px;
+  background-color: #eee;
+}
+
+
+
 
 
 
