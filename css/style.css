@@ -111,4 +111,29 @@ form input {
 }
 form input:focus {
   border-color: #3498db;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */

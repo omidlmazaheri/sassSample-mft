@@ -155,4 +155,33 @@ form {
   }
 }
 
+@mixin button-style($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  @include button-style(#3498db, #fff);
+  padding: 15px;
+}
+
+.btn-danger {
+  @include button-style(#e74c3c, #fff);
+}
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  box-shadow: $x $y $blur $color;
+}
+
+.card {
+  @include box-shadow(0px, 4px, 6px, rgba(0, 0, 0, 0.1));
+  padding: 20px;
+  background-color: #fff;
+}
+
+
 
